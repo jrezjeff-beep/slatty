@@ -1,0 +1,20 @@
+{
+    "name": "pet-brand-scraper",
+    "version": "1.1.0",
+    "description": "Scrapes DTC pet brand leads from Google Search, my-ip.ms, and Meta Ad Library",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "apify": "^3.2.0",
+        "crawlee": "^3.5.0",
+        "puppeteer": "^21.0.0",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-stealth": "^2.11.2"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
