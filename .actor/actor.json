@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "pet-brand-scraper",
+    "title": "Pet Brand Lead Scraper",
+    "description": "Scrapes DTC pet brand leads from Meta Ad Library, Google Search, and my-ip.ms. Outputs brand name, URL, and estimated followers as CSV.",
+    "version": "1.0",
+    "input": {
+        "title": "Pet Brand Scraper Input",
+        "type": "object",
+        "schemaVersion": 1,
+        "properties": {}
+    }
+}
